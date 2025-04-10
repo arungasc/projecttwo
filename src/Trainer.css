@@ -1,0 +1,24 @@
+.trainer-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.trainer-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.trainer-img {
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+
+/* Optional for responsiveness (already handled by Bootstrap) */
+@media screen and (max-width: 768px) {
+  .trainer-img {
+    height: 250px;
+  }
+}
