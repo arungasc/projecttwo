@@ -14,7 +14,11 @@ const Login = () => {
         userInput,
         pwd
       });
+
       alert(res.data.message);
+
+      localStorage.setItem("username", res.data.name);
+
       navigate("/dashboard");
     } catch (err) {
       alert(err.response?.data?.message || "Login failed");
