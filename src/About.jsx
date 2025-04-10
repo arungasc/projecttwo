@@ -32,6 +32,7 @@ const About = () => {
           <p className="text-muted">
             Join us today and become part of a passionate fitness community. 💪 Let’s lift, sweat, and grow stronger together!
           </p>
+          <h1 className='text-center'>About</h1>
         </div>
       </div>
     </div>
